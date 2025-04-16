@@ -31,5 +31,5 @@ const total = calculateTotal(cart);
 const discountedTotal = applyDiscount(total, 0.2); // 20% discount
 const receipt = generateReceipt(cart, discountedTotal);
 
-document.getElementById("total").textContent = `Total: $${discountedTotal}`;
-document.getElementById("receipt").textContent = receipt;
+document.getElementById("total ").textContent = `Total: $${discountedTotal}`;
+document.getElementById("receipt ").textContent = receipt;
