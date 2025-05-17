@@ -49,7 +49,6 @@ const total = calculateTotal(cart);
 const discountedTotal = applyDiscount(total, 0.2); // 20% discount
 const receipt = generateReceipt(cart, discountedTotal);
 
-<<<<<<< HEAD
 document.getElementById("total").textContent = `Total: $${discountedTotal}`;
 document.getElementById("receipt").textContent = receipt;
 
@@ -83,7 +82,3 @@ document.getElementById("receipt").textContent = receipt;
 //    - Step-by-step debugging with breakpoints was key to catching loop bugs.
 //    - Even small typos (like `<=` instead of `<`) can break logic.
 //    - Console log is invaluable for understanding flow and state of variables.
-=======
-document.getElementById("total ").textContent = `Total: $${discountedTotal}`;
-document.getElementById("receipt ").textContent = receipt;
->>>>>>> 991e2d2823f55aec9e3e24b1ec673f2547a22cb8
